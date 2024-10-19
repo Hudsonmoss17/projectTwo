@@ -1,16 +1,62 @@
 body {
+text-align: center;
 margin-top: 20%;
-margin-left: 30%;
 background-image: linear-gradient(#265BBD, #2520B3, #531FA6, #74249C);
+font-family: "buffo", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.title{
+    text-align: center;
+    color: azure;
+   position: fixed;
+   top: 50px;
+   left: 0;
+   right: 0;
+   font-size: 60;
 }
 
 .pg1{
     font-size: 75pt;
     color: white;
     transition-duration: 3s;
-    position: fixed;
+
 }
 
 .pg1:hover{
-transform: scale(110%);
+transform: scaleX(110%);
 }
+
+a {
+    color: white;
+    transition-duration: 3s;
+    text-decoration: none;
+}
+
+a:hover{
+color: #800C0A;
+}
+
+.pg2 {
+    font-size: 75pt;
+    color: white;
+    transition-duration: 3s;
+    transition-delay: 0;
+    animation-name: dropDown;
+    animation-duration: 3s;
+}
+
+.pg2:hover{
+    transform: scaleX(110%);
+}
+
+@keyframes dropDown{
+0% {
+    transform: translateY(-500px) rotateY(360deg); /* Start above the screen */
+  }
+100% {
+    transform: translateY(0) rotateY(0); /* Final position and full rotation */
+  }
+}
+
