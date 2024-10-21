@@ -7,14 +7,30 @@ font-weight: 400;
 font-style: normal;
 }
 
-.title{
+h1{
+    font-size: 200;
+}
+
+.cherrywine{
     text-align: center;
-    color: azure;
+    color: #800C0A;
    position: fixed;
    top: 50px;
    left: 0;
    right: 0;
-   font-size: 60;
+   font-weight: 175;
+}
+
+.title{
+    text-align: center;
+    color: azure;
+   position: fixed;
+   top: 100px;
+   left: 0;
+   right: 0;
+   font-size: 72;
+   font-weight: 175;
+
 }
 
 .pg1{
@@ -51,12 +67,22 @@ color: #800C0A;
     transform: scaleX(110%);
 }
 
+.pg3 {
+    font-size: 75pt;
+    color: white;
+}
+
+.pg3drop{
+    font-size: 75pt;
+    color: white;
+}
+
 @keyframes dropDown{
 0% {
-    transform: translateY(-500px) rotateY(360deg); /* Start above the screen */
+    transform: translateY(-500px) rotateY(360deg); 
   }
 100% {
-    transform: translateY(0) rotateY(0); /* Final position and full rotation */
+    transform: translateY(0) rotateY(0); 
   }
 }
 
