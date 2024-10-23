@@ -48,7 +48,7 @@ transform: scaleX(110%);
 
 a {
     color: black;
-    transition-duration: 2s;
+    transition-duration: 1s;
     text-decoration: none;
 }
 
