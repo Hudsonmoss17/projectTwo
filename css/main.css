@@ -1,23 +1,28 @@
+#grad {
+    background-image: linear-gradient(#FFE8AE, white);
+}
+
+
 body {
 text-align: center;
 margin-top: 20%;
 /*background-image: linear-gradient(#265BBD, #2520B3, #531FA6, #74249C);*/
-background-image: linear-gradient(#FFE8AE, white);
+/*background-image: linear-gradient(#FFE8AE, white);*/
 font-family: "buffo", sans-serif;
 font-weight: 400;
 font-style: normal;
 text-shadow: 0 20px 5px rgba(0,0,0,0.3);
 }
 
-h1{
+h1 {
     font-size: 200;
 }
 
-h3{
+h3 {
     text-align: center;
 }
 
-.cherrywine{
+.cherrywine {
     text-align: center;
     color: #800C0A;
    position: fixed;
@@ -31,7 +36,7 @@ h3{
    height: 50px;
 }
 
-.title{
+.title {
     text-align: center;
     color: black;
    position: fixed;
@@ -48,14 +53,14 @@ h3{
 
 }
 
-.pg1{
+.pg1 {
     font-size: 75pt;
     color: black;
     transition-duration: 3s;
 
 }
 
-.pg1:hover{
+.pg1:hover {
 transform: scaleX(110%);
 }
 
@@ -65,7 +70,7 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
 color: #800C0A;
 transform: scale(110%);
 }
@@ -79,7 +84,7 @@ transform: scale(110%);
     animation-duration: 3s;
 }
 
-.pg2:hover{
+.pg2:hover {
     transform: translateY(110%);
 }
 
@@ -88,7 +93,7 @@ transform: scale(110%);
     color: black;
 }
 
-.pg3drop{
+.pg3drop {
     font-size: 75pt;
     color: black;
     animation-duration: 5s;
@@ -96,23 +101,23 @@ transform: scale(110%);
     
 }
 
-.pg4top{
+.pg4top {
     font-size: 75pt;
     color: black;
 }
 
-.pg4bottom{
+.pg4bottom {
     font-size: 75pt;
     color: black;
 }
 
 
-.pg4top span{
+.pg4top span {
     display: inline-block;
     transition: transform 0.3s ease; 
 }
 
-.pg4bottom span{
+.pg4bottom span {
     display: inline-block;
     transition: transform 0.3s ease; 
 }
@@ -144,7 +149,7 @@ footer {
    height: 50px;
 }
 
-@keyframes dropDownSpin{
+@keyframes dropDownSpin {
 0% {
     transform: translateY(-500px) rotateY(360deg); 
   }
@@ -153,7 +158,7 @@ footer {
   }
 }
 
-@keyframes dropDown{
+@keyframes dropDown {
     from{
         transform: translateY(1000px); opacity: 0;
       }
