@@ -13,6 +13,10 @@ h1{
     font-size: 200;
 }
 
+h3{
+    text-align: center;
+}
+
 .cherrywine{
     text-align: center;
     color: #800C0A;
@@ -21,6 +25,10 @@ h1{
    left: 0;
    right: 0;
    font-weight: 175;
+   background-color: white;
+   margin-left: 45%;
+   margin-right: 45%;
+   height: 50px;
 }
 
 .title{
@@ -32,6 +40,11 @@ h1{
    right: 0;
    font-size: 72;
    font-weight: 175;
+   background-color: white;
+   margin-left: 45%;
+   margin-right: 45%;
+   height: 50px;
+
 
 }
 
@@ -112,6 +125,23 @@ transform: scale(110%);
 .pg4bottom span:hover {
     transform: translateY(5px);
     transform: rotate(15deg);
+}
+
+.lyrics {
+    color: black;
+    text-shadow: none;
+}
+
+footer {
+    position: fixed;
+   bottom: 50px;
+   left: 0;
+   right: 0;
+   font-size: x-large;
+   background-color: white;
+   margin-left: 45%;
+   margin-right: 45%;
+   height: 50px;
 }
 
 @keyframes dropDownSpin{
